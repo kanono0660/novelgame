@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>霧の森の物語</title>
+  <style>
+    body { background: black; color: white; font-family: sans-serif; text-align: center; }
+    #text { margin: 20px; padding: 10px; border: 1px solid white; }
+    #image { width: 80%; margin: 10px auto; display: block; }
+    .choice { margin: 10px; padding: 10px; background: gray; border: none; color: white; cursor: pointer; }
+    #save, #load { margin: 5px; padding: 5px; }
+  </style>
+</head>
+<body>
+
+  <h1>霧の森の物語</h1>
+  <img id="image" src="" alt="">
+  <div id="text"></div>
+  <div id="choices"></div>
+  <button id="save">セーブ</button>
+  <button id="load">ロード</button>
+
+  <audio id="bgm" src="sounds/bgm.mp3" loop></audio>
+  <audio id="se"></audio>
+
+  <script src="game.js"></script>
+
+</body>
+</html>
